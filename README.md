@@ -104,7 +104,7 @@ unnecessary toggling and saves power.
 
 2.5 Total latency and simulation of post APR Verilog netlist  
 
-<img width="548" alt="image" src="https://github.com/user-attachments/assets/01d6ab05-6baa-43a5-a1ca-346b19d476f4" />
+![](https://github.com/user-attachments/assets/843072db-6e57-48e8-98cd-c6d5b3dc0f0b)
 
 **Tot_latency = 0.000096602 ms** at **Clock Frequency of 833.33 MHz**
 
@@ -126,17 +126,17 @@ compiler was added which reduced the power consumption by 3 times.
 **Total power reduced from 1.24mW to 1.079mW (13% decrease in power)
 compared to earlier design.**
 
-<img width="395" alt="image" src="https://github.com/user-attachments/assets/4ef9ea69-c259-4f23-bafa-8da657461dac" />
+![](https://github.com/user-attachments/assets/62d9b9e8-915a-4d64-9859-6a54b1060a75)
 
 
 **2.7 Area**
 
 Standard cells + Filler cells: **23518.123** um\^2
 
-<img width="482" alt="image" src="https://github.com/user-attachments/assets/0b645cce-4bb6-46c4-8c41-f7b796eda45b" />
+![](https://github.com/user-attachments/assets/32cdc8f5-1a0a-4e74-99b1-2c743e2e2bdf)
+![](https://github.com/user-attachments/assets/f08b498b-4135-48c2-a70e-583b95703a5c)
 
 
-<img width="320" alt="image" src="https://github.com/user-attachments/assets/06d2a609-8441-4020-b5b5-665f32c49211" />
 
 
 X dim -- 154.512 um, Y dim -- 152.28 um
@@ -146,8 +146,7 @@ which excludes power rings and gives accurate core size information.
 
 **2.8 Innovus Density - 74.184%**
 
-<img width="524" alt="image" src="https://github.com/user-attachments/assets/e2b68c01-7099-460b-894b-36257c1759bb" />
-
+![](https://github.com/user-attachments/assets/768f377f-457a-4e7d-be52-5e4f9c6d59d8)
 
 **2.9 Number of Gates**
 
@@ -157,12 +156,13 @@ Cells = 9242**
 
 **2.10 DRC and LVS on calibre**
 
-<img width="524" alt="image" src="https://github.com/user-attachments/assets/d817579d-8e15-4c0f-a6ce-195d02a7168c" />
+![](https://github.com/user-attachments/assets/195b3ac3-b761-401d-9380-603eceaca6ab)
+
 
 
 **Waivable DRC violations present in the design**
 
-<img width="524" alt="image" src="https://github.com/user-attachments/assets/8af44ccf-a75a-48a7-9732-a5686c057d69" />
+![](https://github.com/user-attachments/assets/8549d7ad-d94b-4838-9bfd-0d9480644c12)
 
 
 **These short circuit warnings for LVS make sense considering that
@@ -175,7 +175,7 @@ the logic 0 pins( don't touch attribute applied)**
 
 **2.11 Worst Hold and Setup paths**
 
-<img width="524" alt="image" src="https://github.com/user-attachments/assets/7552d39f-c538-45db-8423-7552663cc45d" />
+![](https://github.com/user-attachments/assets/f335bab3-3684-45f4-8ff1-4ce086c909b7)
 
 
 **As it is evident that the slack is exactly 0, after post route when
@@ -184,16 +184,17 @@ almost negligible negative slack, the slack was so negligible that
 innovus showed it as '-0.000' but after running the optimisation it
 fixed this.**
 
-<img width="524" alt="image" src="https://github.com/user-attachments/assets/d788e931-4fb8-4823-9d83-788899f64e95" />
+
+![](https://github.com/user-attachments/assets/43e993c2-cea6-4324-976f-b2969a8a8663)
 
 
 **2.12 Geometry and Connectivity**
 
-<img width="524" alt="image" src="https://github.com/user-attachments/assets/9c161d09-d610-4d09-80f0-ff14c4dcb941" />
+
+![](https://github.com/user-attachments/assets/6db041cb-40b7-4499-aa40-1811394a8096)
 
 
-<img width="524" alt="image" src="https://github.com/user-attachments/assets/97ca8f53-b17d-48fb-8e07-b8dca3287551" />
-
+![](https://github.com/user-attachments/assets/d60d326d-d531-4653-a709-dff8a40fa511)
 
 **3 Future Improvements and comments on current design**
 
