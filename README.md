@@ -2,7 +2,7 @@
 
 **1. Introduction and architecture, high level block diagram**
 
-![gcn_architecture](https://github.com/user-attachments/assets/d780742b-1f5e-437f-aca3-742548f56d50)
+![gcn_architecture](https://github.com/user-attachments/assets/fbfe5d65-88d1-49fe-84cc-476ccc634cc8)
 
 **2. Initial Design Decisions**
 
