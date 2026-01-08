@@ -1,0 +1,111 @@
+ 
+****************************************
+Report : area
+Design : GCN
+Version: V-2023.12-SP5-1
+Date   : Sat May  3 01:41:02 2025
+****************************************
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+Number of ports:                         1567
+Number of nets:                         11828
+Number of cells:                         9442
+Number of combinational cells:           8365
+Number of sequential cells:              1044
+Number of macros/black boxes:               0
+Number of buf/inv:                       1917
+Number of references:                      49
+
+Combinational area:               9996.981048
+Buf/Inv area:                     1392.681618
+Noncombinational area:            6204.548119
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 16201.529167
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area           Local cell area
+                                  -------------------  ---------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-     Noncombi-  Black-
+                                  Total       Total    national   national   boxes   Design
+--------------------------------  ----------  -------  ---------  ---------  ------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GCN                               16201.5292    100.0  2989.7165  4166.6141  0.0000  GCN
+FM_WM_mem_clk_gate_mem_reg_0__0_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_0
+FM_WM_mem_clk_gate_mem_reg_0__1_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_1
+FM_WM_mem_clk_gate_mem_reg_0__2_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_2
+FM_WM_mem_clk_gate_mem_reg_1__0_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_3
+FM_WM_mem_clk_gate_mem_reg_1__1_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_4
+FM_WM_mem_clk_gate_mem_reg_1__2_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_5
+FM_WM_mem_clk_gate_mem_reg_2__0_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_6
+FM_WM_mem_clk_gate_mem_reg_2__1_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_7
+FM_WM_mem_clk_gate_mem_reg_2__2_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_8
+FM_WM_mem_clk_gate_mem_reg_3__0_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_9
+FM_WM_mem_clk_gate_mem_reg_3__1_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_10
+FM_WM_mem_clk_gate_mem_reg_3__2_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_11
+FM_WM_mem_clk_gate_mem_reg_4__0_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_12
+FM_WM_mem_clk_gate_mem_reg_4__1_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_13
+FM_WM_mem_clk_gate_mem_reg_4__2_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_14
+FM_WM_mem_clk_gate_mem_reg_5__0_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_15
+FM_WM_mem_clk_gate_mem_reg_5__1_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_16
+FM_WM_mem_clk_gate_mem_reg_5__2_      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5_17
+addr_gen_clk_gate_read_address_reg
+                                      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Address_generator_WEIGHT_ROWS96_FEATURE_ROWS6_FEATURE_COLS96_WEIGHT_COLS3_ADDRESS_WIDTH13_COUNTER_WEIGHT_WIDTH2_COUNTER_FEATURE_WIDTH3
+arg_max_clk_gate_max_addi_answer_reg_0_
+                                      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_argmax_MAX_ADDRESS_WIDTH2_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16
+coo_addr_gen_clk_gate_column_address_reg
+                                      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_column_address_gen_COO_NUM_OF_COLS6_COO_BW3
+f_c_clk_gate_f_count_reg              4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Feature_counter_FEATURE_ROWS6_FEATURE_WIDTH5_COUNTER_FEATURE_WIDTH3_0
+f_c_clk_gate_f_write_count_reg        4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Feature_counter_FEATURE_ROWS6_FEATURE_WIDTH5_COUNTER_FEATURE_WIDTH3_1
+fm_wm_adj_inst                     5205.1766     32.1  3433.1817  1746.8006  0.0000  Matrix_FM_WM_ADJ_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_COO_NUM_OF_COLS6_WEIGHT_WIDTH5_FEATURE_WIDTH5_COO_BW3
+fm_wm_adj_inst/clk_gate_fm_wm_adj_out_reg_0__0_
+                                      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_ADJ_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_COO_NUM_OF_COLS6_WEIGHT_WIDTH5_FEATURE_WIDTH5_COO_BW3_0
+fm_wm_adj_inst/clk_gate_fm_wm_adj_out_reg_1__0_
+                                      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_ADJ_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_COO_NUM_OF_COLS6_WEIGHT_WIDTH5_FEATURE_WIDTH5_COO_BW3_5
+fm_wm_adj_inst/clk_gate_fm_wm_adj_out_reg_2__0_
+                                      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_ADJ_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_COO_NUM_OF_COLS6_WEIGHT_WIDTH5_FEATURE_WIDTH5_COO_BW3_4
+fm_wm_adj_inst/clk_gate_fm_wm_adj_out_reg_3__0_
+                                      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_ADJ_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_COO_NUM_OF_COLS6_WEIGHT_WIDTH5_FEATURE_WIDTH5_COO_BW3_3
+fm_wm_adj_inst/clk_gate_fm_wm_adj_out_reg_4__0_
+                                      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_ADJ_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_COO_NUM_OF_COLS6_WEIGHT_WIDTH5_FEATURE_WIDTH5_COO_BW3_2
+fm_wm_adj_inst/clk_gate_fm_wm_adj_out_reg_5__0_
+                                      4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Matrix_FM_WM_ADJ_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_COO_NUM_OF_COLS6_WEIGHT_WIDTH5_FEATURE_WIDTH5_COO_BW3_1
+sc_pad_clk_gate_memory_reg_0_         4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Scratch_Pad_WEIGHT_ROWS96_WEIGHT_WIDTH5
+v_mul                              3739.2451     23.1  3574.0828   160.9632  0.0000  Vector_multiplier_WEIGHT_ROWS96_WEIGHT_WIDTH5_FEATURE_ROWS6_FEATURE_WIDTH5_FEATURE_COLS96_DOT_PROD_WIDTH16_COUNTER_WEIGHT_WIDTH2_COUNTER_FEATURE_WIDTH3
+v_mul/clk_gate_partial_sum_reg        4.1990      0.0     0.0000     4.1990  0.0000  SNPS_CLOCK_GATE_HIGH_Vector_multiplier_WEIGHT_ROWS96_WEIGHT_WIDTH5_FEATURE_ROWS6_FEATURE_WIDTH5_FEATURE_COLS96_DOT_PROD_WIDTH16_COUNTER_WEIGHT_WIDTH2_COUNTER_FEATURE_WIDTH3
+--------------------------------  ----------  -------  ---------  ---------  ------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                  9996.9810  6204.5481  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+  No DW parts to report!
+
+Estimated area of ungrouped synthetic parts
+-------------------------------------------
+                                      Estimated  Perc. of
+  Module              Implem.  Count       Area cell area
+  ------------------- -------  ----- ---------- ---------
+  DP_OP_158J2_122_831     str      1  3674.1019     22.7%
+  DW01_add            apparch      7   433.6709      2.7%
+  DW01_dec            apparch      2     3.7325      0.0%
+  DW01_inc            apparch      6     9.4245      0.1%
+  DW_cmp              apparch     23  1406.0941      8.7%
+  ------------------- -------  ----- ---------- ---------
+  DP_OP Subtotal:                  1  3674.1019     22.7%
+  Total:                          39  5527.0239     34.1%
+
+Subtotal of datapath(DP_OP) cell area:  3674.1019  22.7%  (estimated)
+Total synthetic cell area:              5527.0239  34.1%  (estimated)
+
+1

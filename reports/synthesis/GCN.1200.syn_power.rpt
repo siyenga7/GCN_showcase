@@ -1,0 +1,49 @@
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5-1
+Date   : Sat May  3 01:41:03 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /usr/local2/ASAP7/afs/asu.edu/class/e/e/e/eee525b/asap7libs/asap7libs_24/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                    4.56e-02    0.188 7.53e+05    0.234 100.0
+  fm_wm_adj_inst (Matrix_FM_WM_ADJ_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_COO_NUM_OF_COLS6_WEIGHT_WIDTH5_FEATURE_WIDTH5_COO_BW3)
+                                       1.72e-02 3.64e-03 2.28e+05 2.11e-02   9.0
+  v_mul (Vector_multiplier_WEIGHT_ROWS96_WEIGHT_WIDTH5_FEATURE_ROWS6_FEATURE_WIDTH5_FEATURE_COLS96_DOT_PROD_WIDTH16_COUNTER_WEIGHT_WIDTH2_COUNTER_FEATURE_WIDTH3)
+                                       6.16e-03 1.36e-02 1.96e+05 2.00e-02   8.5
+1
